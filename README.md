@@ -61,6 +61,16 @@ The .mp4 video samples (360p, 480p, 720p) are not uploaded to GitHub due to file
 They are available here:
 [Google Drive / OneDrive link here – to be filled by you]
 
+Each video represents a bitrate layer for adaptive streaming:
+
+| File | Resolution | Bitrate | Purpose |
+|------|-------------|----------|----------|
+| 360p.mp4 | 640×360 | ~0.8 Mbps | Low quality, used when network is poor |
+| 480p.mp4 | 854×480 | ~1.5 Mbps | Medium quality |
+| 720p.mp4 | 1280×720 | ~3 Mbps | High quality, used when bandwidth is sufficient |
+| sample.mp4 | original short video | — | Source file used to generate the above versions with FFmpeg |
+
+
 Download them and place in the same directory before running the scripts.
 
 
