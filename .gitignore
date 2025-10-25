@@ -1,0 +1,62 @@
+# ===============================
+#  KTH DASH Project - .gitignore
+# ===============================
+
+# ---- 1. Python 相关 ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ---- 2. 实验数据与视频文件 ----
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.ts
+
+# ---- 3. 临时测试输出 ----
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tmp
+*.bak
+
+# ---- 4. Jupyter / 实验记录 ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- 5. 虚拟环境 / 环境依赖 ----
+.venv/
+env/
+venv/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ---- 6. 系统文件 ----
+.DS_Store
+Thumbs.db
+
+# ---- 7. IDE 配置文件 ----
+.vscode/
+.idea/
+*.iml
+
+# ---- 8. 网络仿真或日志文件 ----
+*.pcap
+*.pcapng
+*.trace
+*.json
+*.txt
+*.csv
+
+# ---- 9. 临时测试结果（例如 real_dash_result.png 可视化结果）----
+# 如果你想保留结果图，请注释掉下一行
+real_dash_result.png
+dash_result.png
